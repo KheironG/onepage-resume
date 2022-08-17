@@ -1,0 +1,9 @@
+@import 'assets/scss/mixins';
+@import 'assets/scss/colours';
+@import 'assets/scss/main';
+@import 'assets/scss/blocks';
+@import 'assets/scss/containers';
+
+.editor-styles-wrapper .wp-block {
+    margin-bottom: 130px;
+}

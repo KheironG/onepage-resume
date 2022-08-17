@@ -1,0 +1,33 @@
+@import 'assets/scss/mixins';
+@import 'assets/scss/colours';
+@import 'assets/scss/main';
+@import 'assets/scss/blocks';
+@import 'assets/scss/typography';
+@import 'assets/scss/containers';
+@import 'assets/scss/forms';
+@import 'assets/scss/dotted-loader';
+@import 'assets/scss/slider';
+@import 'assets/scss/scroll-to';
+
+.hidden {
+    display: none;
+}
+
+@media (max-width: 450px) {
+    .hide-small-screen {
+        display: none;
+    }
+}
+
+@media (min-width: 900px) {
+    .show-small-screen {
+        display: none;
+    }
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}

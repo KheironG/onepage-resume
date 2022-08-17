@@ -1,0 +1,105 @@
+.onepage-javascript-slider {
+    @include flex-center-column;
+    width: 100%;
+    grid-gap: 10px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+    .container {
+        @include flex-center-center;
+        width: 100%;
+        grid-gap: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+        box-sizing: border-box;
+        @media ( max-width: 900px) {
+            justify-content: center;
+        }
+
+        span {
+            cursor: pointer;
+        }
+
+        .indicators {
+            @include flex-center-center;
+            max-width: 100%;
+            grid-gap: 25px;
+
+            .active {
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                border: 3px solid;
+            }
+
+            div {
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                border: 1px solid;
+            }
+
+            @media ( max-width: 900px ) {
+                .active {
+                    width: 7px;
+                    height: 7px;
+                }
+
+                div {
+                    width: 7px;
+                    height: 7px;
+                }
+
+            }
+
+            @media ( max-width: 600px ) {
+                .active {
+                    width: 5px;
+                    height: 5px;
+                }
+
+                div {
+                    width: 5px;
+                    height: 5px;
+                }
+
+            }
+
+        }
+
+    }
+
+    .swipe-info {
+        font-size: 10px;
+        text-transform: uppercase;
+        font-family: 'montserrat_medium';
+        letter-spacing: 3px;
+    }
+
+    @media ( max-width: 900px ) {
+        margin-top: 10px;
+        grid-gap: 5px;
+
+        .swipe-info {
+            font-size: 8px;
+            text-transform: uppercase;
+            font-family: 'montserrat_medium';
+            letter-spacing: 3px;
+        }
+
+    }
+
+    @media ( max-width: 600px ) {
+        margin-top: 20px;
+        grid-gap: 5px;
+
+        .swipe-info {
+            font-size: 8px;
+            text-transform: uppercase;
+            font-family: 'montserrat_bold';
+            letter-spacing: 3px;
+        }
+
+    }
+
+}

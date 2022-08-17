@@ -1,0 +1,30 @@
+{
+  "name": "artshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KheironG/Webshop-WordPress-React.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KheironG/Webshop-WordPress-React/issues"
+  },
+  "homepage": "https://github.com/KheironG/Webshop-WordPress-React#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-livereload": "^4.0.2",
+    "gulp-notify": "^4.0.0",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
+    "postcss-cssnext": "^3.1.1",
+    "sass": "^1.53.0"
+  }
+}

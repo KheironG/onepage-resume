@@ -1,0 +1,83 @@
+@font-face {
+ font-family: 'montserrat_bold';
+ src: url('../assets/fonts/Montserrat-Bold.ttf');
+ font-weight: 600;
+}
+@font-face {
+ font-family: 'montserrat_medium';
+ src: url('../assets/fonts/Montserrat-Medium.ttf');
+ font-weight: 500;
+}
+@font-face {
+ font-family: 'montserrat_regular';
+ src: url('../assets/fonts/Montserrat-Regular.ttf');
+ font-weight: 400;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'montserrat_bold';
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    color: $grey-2;
+    margin-top: 40px;
+}
+
+
+h1 { font-size: 42px; line-height: 65px; }
+h2 { font-size: 33px; line-height: 52px; }
+h3 { font-size: 26px; line-height: 42px; }
+h4 { font-size: 20px; line-height: 33px; }
+h5 { font-size: 16px; line-height: 27px; }
+
+
+@media ( max-width: 1300px ) {
+    h1 { font-size: 3vw; line-height: 4.5vw; }
+    h2 { font-size: 2.4vw; line-height: 3.6vw; }
+    h3 { font-size: 1.9vw; line-height: 2.8vw; }
+    h4 { font-size: 1.5vw; line-height: 2.25vw; }
+}
+
+
+@media ( max-width: 700px ) {
+    h1 { font-size: 5.5vw; line-height: 8vw; }
+    h2 { font-size: 4.4vw; line-height: 5.85vw; }
+    h3 { font-size: 3.5vw; line-height: 4vw; }
+    h4 { font-size: 2.8vw; line-height: 2.8vw; }
+}
+
+
+@media ( max-width: 450px ) {
+    h1 { font-size: 5vw; line-height: 7.5vw; }
+    h2 { font-size: 4vw; line-height: 6vw; }
+    h3 { font-size: 3.2vw; line-height: 4.8vw; }
+    h4 { font-size: 2.56vw; line-height: 3.8vw; }
+}
+
+
+h1 + p,
+h2 + p,
+h3 + p,
+h4 + p,
+h5 + p {
+    margin-top: 0px;
+}
+
+h1, h2, h3, h4, h5 {
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 30px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
